@@ -1,0 +1,39 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+recruits@recruits-All-Series:~$ touch exercise.md\
+> ^C
+recruits@recruits-All-Series:~$ touch exercise.md
+recruits@recruits-All-Series:~$ mv exercise.md /tmp/
+recruits@recruits-All-Series:~$ cd /tmp/
+recruits@recruits-All-Series:/tmp$ ls
+config-err-JvydGd
+exercise.md
+mintUpdate
+mozilla_recruits0
+ssh-tL4tIKI0hOVs
+systemd-private-1db3f9c74a2542228c3c419fdabdcc24-ModemManager.service-BXb6ex
+systemd-private-1db3f9c74a2542228c3c419fdabdcc24-ntp.service-PErs9V
+systemd-private-1db3f9c74a2542228c3c419fdabdcc24-rtkit-daemon.service-9o5rmm
+systemd-private-1db3f9c74a2542228c3c419fdabdcc24-systemd-resolved.service-WAJVfo
+Temp-7eb9cf98-4a84-41a6-a806-3ba28bb17098
+Temp-d33a34b8-106e-431a-9056-d065bdeaf14e
+recruits@recruits-All-Series:/tmp$ cd ~-
+recruits@recruits-All-Series:~$ rm /tmp/exercise.md
+recruits@recruits-All-Series:~$ ls
+Desktop    Downloads  Pictures  Templates  workspace
+Documents  Music      Public    Videos
+recruits@recruits-All-Series:~$ cd 
+recruits@recruits-All-Series:~$ cd /tmp/
+recruits@recruits-All-Series:/tmp$ ls
+config-err-JvydGd
+mintUpdate
+mozilla_recruits0
+ssh-tL4tIKI0hOVs
+systemd-private-1db3f9c74a2542228c3c419fdabdcc24-ModemManager.service-BXb6ex
+systemd-private-1db3f9c74a2542228c3c419fdabdcc24-ntp.service-PErs9V
+systemd-private-1db3f9c74a2542228c3c419fdabdcc24-rtkit-daemon.service-9o5rmm
+systemd-private-1db3f9c74a2542228c3c419fdabdcc24-systemd-resolved.service-WAJVfo
+Temp-7eb9cf98-4a84-41a6-a806-3ba28bb17098
+Temp-d33a34b8-106e-431a-9056-d065bdeaf14e
+recruits@recruits-All-Series:/tmp$ 

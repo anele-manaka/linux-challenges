@@ -1,0 +1,24 @@
+recruits@recruits-All-Series:~$ touch my_bio.md
+recruits@recruits-All-Series:~$ nano my_bio.md
+recruits@recruits-All-Series:~$ mkdir my_files
+mkdir: cannot create directory ‘my_files’: File exists
+recruits@recruits-All-Series:~$ mkdir my_files
+recruits@recruits-All-Series:~$ mv my_bio.md my_files 
+recruits@recruits-All-Series:~$ late my_bio
+
+Command 'late' not found, but can be installed with:
+
+sudo apt install late
+
+recruits@recruits-All-Series:~$ locate my_bio.md
+recruits@recruits-All-Series:~$ 
+
+
+
+
+
+
+
+
+
+

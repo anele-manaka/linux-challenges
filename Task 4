@@ -1,0 +1,8 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+recruits@recruits-All-Series:~$ locate umuzi.md
+/home/recruits/workspace/umuzi.md
+/home/recruits/workspace/umuzi.md.save
+recruits@recruits-All-Series:~$ locate umuzi.md > search_result.md
+recruits@recruits-All-Series:~$ 

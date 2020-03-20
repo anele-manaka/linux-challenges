@@ -1,0 +1,15 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+recruits@recruits-All-Series:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+recruits@recruits-All-Series:~$ pwd
+/home/recruits
+recruits@recruits-All-Series:~$ mkdir workspace
+recruits@recruits-All-Series:~$ cd workspace
+recruits@recruits-All-Series:~/workspace$ ls
+recruits@recruits-All-Series:~/workspace$ touch README.md
+recruits@recruits-All-Series:~/workspace$ cp README.md CHANGELOG.md
+recruits@recruits-All-Series:~/workspace$ ls
+CHANGELOG.md  README.md
+recruits@recruits-All-Series:~/workspace$ 

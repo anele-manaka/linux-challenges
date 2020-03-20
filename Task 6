@@ -1,0 +1,36 @@
+recruits@recruits-All-Series:~$ nano pdf_finder.sh
+recruits@recruits-All-Series:~$ chmod 0700 pdf_finder.sh
+recruits@recruits-All-Series:~$ ./pdf_finder.sh
+/home/recruits/Downloads/Copy of Make Umuzi Better Group 5 Cohort21.pdf
+/home/recruits/Downloads/Copy of Make Umuzi Better.pdf
+/usr/lib/libreoffice/share/xpdfimport/xpdfimport_err.pdf
+/usr/share/cups/data/classified.pdf
+/usr/share/cups/data/confidential.pdf
+/usr/share/cups/data/default-testpage.pdf
+/usr/share/cups/data/default.pdf
+/usr/share/cups/data/form_english.pdf
+/usr/share/cups/data/form_russian.pdf
+/usr/share/cups/data/secret.pdf
+/usr/share/cups/data/standard.pdf
+/usr/share/cups/data/topsecret.pdf
+/usr/share/cups/data/unclassified.pdf
+/usr/share/doc/fontconfig/fontconfig-user.pdf.gz
+/usr/share/doc/fonts-sil-abyssinica/documentation/AbyssinicaSILGraphiteFontFeatures.pdf.gz
+/usr/share/doc/fonts-sil-abyssinica/documentation/AbyssinicaSILOpenTypeFontFeatures.pdf.gz
+/usr/share/doc/fonts-sil-abyssinica/documentation/AbyssinicaSILTypeSample.pdf.gz
+/usr/share/doc/fonts-sil-abyssinica/documentation/AbyssinicaSILTypeTunerGuide.pdf.gz
+/usr/share/doc/fonts-sil-abyssinica/documentation/SILEthiopicPrivateUseAreaBlock.pdf.gz
+/usr/share/doc/fonts-sil-padauk/documentation/Padauk-features.pdf.gz
+/usr/share/doc/fonts-sil-padauk/documentation/Padauk-typesample.pdf.gz
+/usr/share/doc/printer-driver-foo2zjs/manual.pdf
+/usr/share/doc/qpdf/qpdf-manual.pdf
+/usr/share/doc/shared-mime-info/shared-mime-info-spec.pdf
+/usr/share/hplip/data/ps/clean_page.pdf.gz
+/usr/share/mint-artwork/cups/default-testpage.pdf
+/var/lib/flatpak/appstream/flathub/x86_64/73a3389cb9d9908ec17abaa868b44780ae81b8a2af4f58f473408a575ac0e3ba/icons/128x128/com.github.muriloventuroso.pdftricks.png
+/var/lib/flatpak/appstream/flathub/x86_64/73a3389cb9d9908ec17abaa868b44780ae81b8a2af4f58f473408a575ac0e3ba/icons/64x64/com.github.muriloventuroso.pdftricks.png
+recruits@recruits-All-Series:~$ locate .pdf >> umuzi.md
+recruits@recruits-All-Series:~$ 
+recruits@recruits-All-Series:~$ find . -maxdepth 1 newermt "2020-03-18"
+find: paths must precede expression: `newermt'
+recruits@recruits-All-Series:~$ 
